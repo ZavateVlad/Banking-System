@@ -5,10 +5,11 @@ ID,First Name,Last Name,Gender,Company,Occupation
 4,Steven,Evans,Male,Fatz,Registered Nurse
 5,Judy,Morrison,Female,Demivee,Legal Assistant
 6,Amanda,Howell,Female,Thoughtbridge,Dental Hygienist
-7,Johnny,Reid,Male,Babblestorm,Account Executive
+7,Johnny,Reid,Male,Babblestorm,
 8,Frances,Adams,Female,Dabshots,Developer III
 9,Gregory,Chapman,Male,Eayo,Junior Executive
-10,Steven,Ryan,Male,Twinder,Community Outreach Specialist
+10,Steven,Ryan,Male,Twinder,
+11,Michael,Reynolds,Male,Meevee,Dental Hygienist
 11,Michael,Reynolds,Male,Meevee,Dental Hygienist
 12,Lois,Watkins,Female,Mydo,Staff Accountant IV
 13,Ruth,Alvarez,Female,Twitterlist,Mechanical Systems Engineer
@@ -18,18 +19,22 @@ ID,First Name,Last Name,Gender,Company,Occupation
 17,Ruby,Palmer,Female,Roomm,Administrative Officer
 18,Jason,King,Male,Flipbug,Financial Advisor
 19,Pamela,Kelly,Female,Jaloo,Director of Sales
+16,Scott,Arnold,Male,Meemm,Human Resources Assistant I
+17,Ruby,Palmer,Female,Roomm,Administrative Officer
+18,Jason,King,Male,Flipbug,Financial Advisor
+19,Pamela,Kelly,Female,Jaloo,Director of Sales
 20,Lisa,Rice,Female,Oloo,Programmer IV
-21,Albert,Burns,Male,Rhynoodle,Junior Executive
+21,Albert,Burns,,Rhynoodle,Junior Executive
 22,Martin,Reynolds,Male,Meembee,Information Systems Manager
-23,Janice,Campbell,Female,DabZ,Chief Design Engineer
+23,Janice,Campbell,,DabZ,Chief Design Engineer
 24,Donna,Thomas,Female,Jaxbean,Chief Design Engineer
 25,Patrick,Baker,Male,Fivespan,General Manager
 26,Michelle,Kelly,Female,Twitterbeat,Programmer Analyst I
 27,Jessica,Bennett,Female,Twitternation,Account Executive
 28,Phillip,Carroll,Male,Ainyx,Editor
-29,Gary,Riley,Male,Devpoint,Nurse Practicioner
+29,Gary,Riley,Male,,Nurse Practicioner
 30,Pamela,Hicks,Female,Ntags,Cost Accountant
-31,David,Lewis,Male,Skyndu,Assistant Manager
+31,David,Lewis,Male,,Assistant Manager
 32,Mildred,Thomas,Female,Yombu,Recruiter
 33,Stephanie,Collins,Female,LiveZ,Paralegal
 34,Joan,Carroll,Female,Skiptube,Clinical Specialist
@@ -999,3 +1004,6 @@ ID,First Name,Last Name,Gender,Company,Occupation
 998,Frank,Franklin,Male,Brainverse,Nurse Practicioner
 999,Jessica,Burns,Female,Babbleblab,Financial Advisor
 1000,Brian,Daniels,Male,Tazzy,Physical Therapy Assistant
+998,Frank,Franklin,Male,Brainverse,Nurse Practicioner2
+999,Jessica,Burns,Female,Babbleblab,Financial Advisor2
+1000,Brian,Daniels,Male,Tazzy,Physical Therapy Assistant2

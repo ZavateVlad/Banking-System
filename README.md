@@ -87,6 +87,16 @@ This repository is designed to guide participants through learning Python fundam
 **Tasks**:
 - Work with Pandas for data manipulation and visualization.
 - Read, manipulate, and export data from DataFrames.
+  - Starting from `datasets/Restaurant*` csv files:
+    - `datasets/Restaurant - Foods.csv` - check if the data is consistent and take necessary actions
+    - `datasets/Restaurant - Customers.csv` - check if the data is consistent and take necessary actions
+    - `datasets/Restaurant - Week 1 Sales.csv` - check if the data is consistent and take necessary actions
+    - `datasets/Restaurant - Week 1 Satisfaction.csv` - check if the data is consistent and take necessary actions
+    - `datasets/Restaurant - Week 2 Sales.csv` - check if the data is consistent and take necessary actions
+      extract the following:
+      - most popular foods based on a Job Category
+      - correlation between most popular foods and satisfaction for week 1
+      - correlation between most popular foods and sales for week 1 & week 2
 
 **Checkpoint**: Submit scripts demonstrating Pandas-based data analysis.
 
@@ -101,7 +111,7 @@ This repository is designed to guide participants through learning Python fundam
 **Tasks**:
 - Install and run Spark in local mode.
 - Read and process data using Spark DataFrames.
-- Perform transformations and actions on data.
+- Perform transformations and actions on data - same exercises as done for Pandas
   
 **Checkpoint**: Submit PySpark scripts for data manipulation.
 
