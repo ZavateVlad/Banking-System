@@ -1,0 +1,282 @@
+[
+    {
+        "home_team": "Unirea_SQL",
+        "score": "10-8",
+        "away_team": "DevOPS FC"
+    },
+    {
+        "home_team": "Unirea_SQL",
+        "score": "7-5",
+        "away_team": "DB_FC"
+    },
+    {
+        "home_team": "FC_PY",
+        "score": "0-7",
+        "away_team": "Universitatea_NoSQL"
+    },
+    {
+        "home_team": "DevOPS FC",
+        "score": "2-6",
+        "away_team": "Universitatea_NoSQL"
+    },
+    {
+        "home_team": "PY Falcons",
+        "score": "8-8",
+        "away_team": "DB Lions"
+    },
+    {
+        "home_team": "DevOPS FC",
+        "score": "7-5",
+        "away_team": "Unirea_SQL"
+    },
+    {
+        "home_team": "PY Falcons",
+        "score": "10-6",
+        "away_team": "DB_FC"
+    },
+    {
+        "home_team": "Unirea_SQL",
+        "score": "8-10",
+        "away_team": "PY Falcons"
+    },
+    {
+        "home_team": "DevOPS FC",
+        "score": "3-10",
+        "away_team": "PY Falcons"
+    },
+    {
+        "home_team": "FC Bootcamp",
+        "score": "8-9",
+        "away_team": "DB Lions"
+    },
+    {
+        "home_team": "Universitatea_NoSQL",
+        "score": "2-9",
+        "away_team": "DevOPS FC"
+    },
+    {
+        "home_team": "DevOPS FC",
+        "score": "4-2",
+        "away_team": "FC Bootcamp"
+    },
+    {
+        "home_team": "PY Falcons",
+        "score": "2-9",
+        "away_team": "FC_PY"
+    },
+    {
+        "home_team": "DB_FC",
+        "score": "0-5",
+        "away_team": "PY Falcons"
+    },
+    {
+        "home_team": "Universitatea_NoSQL",
+        "score": "4-10",
+        "away_team": "DB Lions"
+    },
+    {
+        "home_team": "DB_FC",
+        "score": "8-7",
+        "away_team": "Universitatea_NoSQL"
+    },
+    {
+        "home_team": "DevOPS FC",
+        "score": "0-3",
+        "away_team": "DB Lions"
+    },
+    {
+        "home_team": "DB Lions",
+        "score": "6-2",
+        "away_team": "FC_PY"
+    },
+    {
+        "home_team": "DB Lions",
+        "score": "2-10",
+        "away_team": "PY Falcons"
+    },
+    {
+        "home_team": "Unirea_SQL",
+        "score": "4-8",
+        "away_team": "DB Lions"
+    },
+    {
+        "home_team": "FC_PY",
+        "score": "10-0",
+        "away_team": "DB_FC"
+    },
+    {
+        "home_team": "FC Bootcamp",
+        "score": "7-1",
+        "away_team": "Unirea_SQL"
+    },
+    {
+        "home_team": "PY Falcons",
+        "score": "7-4",
+        "away_team": "Unirea_SQL"
+    },
+    {
+        "home_team": "DB_FC",
+        "score": "2-3",
+        "away_team": "DevOPS FC"
+    },
+    {
+        "home_team": "FC_PY",
+        "score": "4-9",
+        "away_team": "PY Falcons"
+    },
+    {
+        "home_team": "PY Falcons",
+        "score": "7-10",
+        "away_team": "FC Bootcamp"
+    },
+    {
+        "home_team": "DevOPS FC",
+        "score": "9-3",
+        "away_team": "DB_FC"
+    },
+    {
+        "home_team": "DB Lions",
+        "score": "10-10",
+        "away_team": "DB_FC"
+    },
+    {
+        "home_team": "FC Bootcamp",
+        "score": "6-3",
+        "away_team": "DB_FC"
+    },
+    {
+        "home_team": "FC Bootcamp",
+        "score": "1-1",
+        "away_team": "Universitatea_NoSQL"
+    },
+    {
+        "home_team": "Universitatea_NoSQL",
+        "score": "9-2",
+        "away_team": "DB_FC"
+    },
+    {
+        "home_team": "FC_PY",
+        "score": "5-2",
+        "away_team": "Unirea_SQL"
+    },
+    {
+        "home_team": "FC_PY",
+        "score": "3-3",
+        "away_team": "DB Lions"
+    },
+    {
+        "home_team": "Unirea_SQL",
+        "score": "4-1",
+        "away_team": "FC_PY"
+    },
+    {
+        "home_team": "FC Bootcamp",
+        "score": "10-4",
+        "away_team": "FC_PY"
+    },
+    {
+        "home_team": "FC_PY",
+        "score": "8-7",
+        "away_team": "DevOPS FC"
+    },
+    {
+        "home_team": "DB_FC",
+        "score": "0-7",
+        "away_team": "FC Bootcamp"
+    },
+    {
+        "home_team": "FC Bootcamp",
+        "score": "0-7",
+        "away_team": "PY Falcons"
+    },
+    {
+        "home_team": "DB Lions",
+        "score": "6-1",
+        "away_team": "Unirea_SQL"
+    },
+    {
+        "home_team": "DB_FC",
+        "score": "0-4",
+        "away_team": "Unirea_SQL"
+    },
+    {
+        "home_team": "DB_FC",
+        "score": "5-1",
+        "away_team": "FC_PY"
+    },
+    {
+        "home_team": "DB Lions",
+        "score": "1-3",
+        "away_team": "FC Bootcamp"
+    },
+    {
+        "home_team": "DB Lions",
+        "score": "0-7",
+        "away_team": "Universitatea_NoSQL"
+    },
+    {
+        "home_team": "Universitatea_NoSQL",
+        "score": "5-8",
+        "away_team": "FC Bootcamp"
+    },
+    {
+        "home_team": "Universitatea_NoSQL",
+        "score": "0-4",
+        "away_team": "Unirea_SQL"
+    },
+    {
+        "home_team": "Universitatea_NoSQL",
+        "score": "3-8",
+        "away_team": "PY Falcons"
+    },
+    {
+        "home_team": "FC_PY",
+        "score": "5-4",
+        "away_team": "FC Bootcamp"
+    },
+    {
+        "home_team": "DB Lions",
+        "score": "7-1",
+        "away_team": "DevOPS FC"
+    },
+    {
+        "home_team": "FC Bootcamp",
+        "score": "2-4",
+        "away_team": "DevOPS FC"
+    },
+    {
+        "home_team": "Unirea_SQL",
+        "score": "6-8",
+        "away_team": "Universitatea_NoSQL"
+    },
+    {
+        "home_team": "DB_FC",
+        "score": "1-8",
+        "away_team": "DB Lions"
+    },
+    {
+        "home_team": "Universitatea_NoSQL",
+        "score": "4-4",
+        "away_team": "FC_PY"
+    },
+    {
+        "home_team": "PY Falcons",
+        "score": "9-0",
+        "away_team": "DevOPS FC"
+    },
+    {
+        "home_team": "Unirea_SQL",
+        "score": "6-4",
+        "away_team": "FC Bootcamp"
+    },
+    {
+        "home_team": "PY Falcons",
+        "score": "0-5",
+        "away_team": "Universitatea_NoSQL"
+    },
+    {
+        "home_team": "DevOPS FC",
+        "score": "3-7",
+        "away_team": "FC_PY"
+    }
+]

@@ -1,0 +1,57 @@
+home_team,score,away_team
+Unirea_SQL,10-8,DevOPS FC
+Unirea_SQL,7-5,DB_FC
+FC_PY,0-7,Universitatea_NoSQL
+DevOPS FC,2-6,Universitatea_NoSQL
+PY Falcons,8-8,DB Lions
+DevOPS FC,7-5,Unirea_SQL
+PY Falcons,10-6,DB_FC
+Unirea_SQL,8-10,PY Falcons
+DevOPS FC,3-10,PY Falcons
+FC Bootcamp,8-9,DB Lions
+Universitatea_NoSQL,2-9,DevOPS FC
+DevOPS FC,4-2,FC Bootcamp
+PY Falcons,2-9,FC_PY
+DB_FC,0-5,PY Falcons
+Universitatea_NoSQL,4-10,DB Lions
+DB_FC,8-7,Universitatea_NoSQL
+DevOPS FC,0-3,DB Lions
+DB Lions,6-2,FC_PY
+DB Lions,2-10,PY Falcons
+Unirea_SQL,4-8,DB Lions
+FC_PY,10-0,DB_FC
+FC Bootcamp,7-1,Unirea_SQL
+PY Falcons,7-4,Unirea_SQL
+DB_FC,2-3,DevOPS FC
+FC_PY,4-9,PY Falcons
+PY Falcons,7-10,FC Bootcamp
+DevOPS FC,9-3,DB_FC
+DB Lions,10-10,DB_FC
+FC Bootcamp,6-3,DB_FC
+FC Bootcamp,1-1,Universitatea_NoSQL
+Universitatea_NoSQL,9-2,DB_FC
+FC_PY,5-2,Unirea_SQL
+FC_PY,3-3,DB Lions
+Unirea_SQL,4-1,FC_PY
+FC Bootcamp,10-4,FC_PY
+FC_PY,8-7,DevOPS FC
+DB_FC,0-7,FC Bootcamp
+FC Bootcamp,0-7,PY Falcons
+DB Lions,6-1,Unirea_SQL
+DB_FC,0-4,Unirea_SQL
+DB_FC,5-1,FC_PY
+DB Lions,1-3,FC Bootcamp
+DB Lions,0-7,Universitatea_NoSQL
+Universitatea_NoSQL,5-8,FC Bootcamp
+Universitatea_NoSQL,0-4,Unirea_SQL
+Universitatea_NoSQL,3-8,PY Falcons
+FC_PY,5-4,FC Bootcamp
+DB Lions,7-1,DevOPS FC
+FC Bootcamp,2-4,DevOPS FC
+Unirea_SQL,6-8,Universitatea_NoSQL
+DB_FC,1-8,DB Lions
+Universitatea_NoSQL,4-4,FC_PY
+PY Falcons,9-0,DevOPS FC
+Unirea_SQL,6-4,FC Bootcamp
+PY Falcons,0-5,Universitatea_NoSQL
+DevOPS FC,3-7,FC_PY
