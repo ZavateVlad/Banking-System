@@ -10,11 +10,11 @@ This repository is designed to guide participants through learning Python fundam
 - [Phase 3: PostgreSQL Integration with SQLAlchemy](#phase-3-postgresql-integration-with-sqlalchemy-pr3)
 - [Phase 4: Replacing SQLAlchemy with Raw SQL](#phase-4-replacing-sqlalchemy-with-raw-sql-queries-pr4)
 - [Phase 5: Pandas](#phase-5-pandas-pr5)
-- [Phase 6: PySpark Introduction](#phase-5-pyspark-pr6)
-- [Phase 7: Unit Testing with Pytest](#phase-6-unit-testing-with-pytest-pr7)
-- [Phase 8: Integration Testing with SQLite & PostgreSQL](#phase-7-integration-testing-with-sqlite-postgresql-pr8)
-- [Phase 9: Dockerizing the Application](#phase-8-dockerizing-the-application-pr9)
-- [Phase 10: Final Project Submission](#phase-9-final-project-submission-pr10)
+- [Phase 6: PySpark Introduction](#phase-6-pyspark-pr6)
+- [Phase 7: Unit Testing with Pytest](#phase-7-unit-testing-with-pytest-pr7)
+- [Phase 8: Integration Testing with SQLite & PostgreSQL](#phase-8-integration-testing-with-sqlite-postgresql-pr8)
+- [Phase 9: Dockerizing the Application](#phase-9-dockerizing-the-application-pr9)
+- [Phase 10: Final Project Submission](#phase-10-final-project-submission-pr10)
   
 ---
 
