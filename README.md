@@ -47,6 +47,7 @@ This repository is designed to guide participants through learning Python fundam
 - Implement CRUD operations using [Pydantic models](https://pydantic-docs.helpmanual.io/).
   
 **Checkpoint**: Build a minimal API with core CRUD functionality.
+- endpoint to retrive all the items from a list
 - endpoint to retrieve an item from a static list
 - endpoint to create an item in a list
 - endpoint to delete an item from a list
@@ -72,7 +73,6 @@ This repository is designed to guide participants through learning Python fundam
     - `datasets/Restaurant - Customers.csv`
     - `datasets/Restaurant - Week 1 Sales.csv`
     - `datasets/Restaurant - Week 1 Satisfaction.csv`
-
 ---
 
 ## Phase 4: Replacing SQLAlchemy with Raw SQL Queries (PR4)
@@ -184,4 +184,7 @@ This repository is designed to guide participants through learning Python fundam
 - [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
 - [Python Dependency Management: Poetry](https://python-poetry.org/docs/)
 - [Spark Introduction](https://sparkbyexamples.com/pyspark-tutorial/)
-
+- [Python Docs](https://docs.python.org/3/)
+- [Python concurrency](https://realpython.com/python-concurrency/)
+- [Intro to threading](https://realpython.com/intro-to-python-threading/)
+  [AsyncIO](https://realpython.com/async-io-python/)
