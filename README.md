@@ -20,10 +20,13 @@ This repository is designed to guide participants through learning Python fundam
 
 ## Phase 1: Python Basics (PR1)
 
-**Goal**: Strengthen knowledge of Python fundamentals.
+**Goal**: Install Python and necessary IDE &  Strengthen knowledge of Python fundamentals.
 
+- **Python download**: https://www.python.org/downloads/ - Choose version 3.9+
+- **Pycharm download**: https://www.jetbrains.com/products/compare/?product=pycharm&product=pycharm-ce - Choose community edition
+- **VS Code download**: https://code.visualstudio.com/download
 - **Documentation**: Refer to [Learning Python (O'Reilly)](https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/) and [Python Bootcamp](https://ibm-learning.udemy.com/course/complete-python-bootcamp/).
-  
+
 **Tasks**:
 - Core Python skills: Functions, loops, OOP, data structures, exceptions.
 - Virtual environments: [Python venv](https://docs.python.org/3/library/venv.html), [pyenv](https://github.com/pyenv/pyenv).
