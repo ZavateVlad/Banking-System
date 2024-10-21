@@ -17,14 +17,23 @@ This repository is designed to guide participants through learning Python fundam
 - [Phase 10: Final Project Submission](#phase-10-final-project-submission-pr10)
   
 ---
-
-## Phase 1: Python Basics (PR1)
-
-**Goal**: Install Python and necessary IDE &  Strengthen knowledge of Python fundamentals.
+## Phase 0: Setup - Week 1
 
 - **Python download**: https://www.python.org/downloads/ - Choose version 3.9+
-- **Pycharm download**: https://www.jetbrains.com/products/compare/?product=pycharm&product=pycharm-ce - Choose community edition
+- **Pycharm download**: https://www.jetbrains.com/products/compare/?product=pycharm&product=pycharm-ce - Choose community edition or
 - **VS Code download**: https://code.visualstudio.com/download
+- **Git CLI**: https://git-scm.com/downloads
+- Tasks:
+  - Clone this repository
+  - Create a new repository within https://github.ibm.com/ and grant write access to:
+    - Andrei-Terecoasa
+    - andrei-rizea
+    - Vlad-Nicolae-Dumitrescu 
+
+## Phase 1: Python Basics (PR1) - Week 1
+
+**Goal**:  Strengthen knowledge of Python fundamentals.
+
 - **Documentation**: Refer to [Learning Python (O'Reilly)](https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/) and [Python Bootcamp](https://ibm-learning.udemy.com/course/complete-python-bootcamp/).
 
 **Tasks**:
@@ -32,14 +41,12 @@ This repository is designed to guide participants through learning Python fundam
 - Virtual environments: [Python venv](https://docs.python.org/3/library/venv.html), [pyenv](https://github.com/pyenv/pyenv).
   
 **Checkpoint**: Submit basic Python scripts demonstrating classes, functions, and system simulation.
-
-**Exercises**: 
-- `exercises/base_exercises.py`
-- `exercises/oop_ex.py`
+   - `exercises/base_exercises.py`
+   - `exercises/oop_ex.py`
 
 ---
 
-## Phase 2: FastAPI Basics (PR2)
+## Phase 2: FastAPI Basics (PR2) - Week 2
 
 **Goal**: Introduce REST API concepts using FastAPI.
 
@@ -59,7 +66,7 @@ This repository is designed to guide participants through learning Python fundam
 
 ---
 
-## Phase 3: PostgreSQL Integration with SQLAlchemy (PR3)
+## Phase 3: PostgreSQL Integration with SQLAlchemy (PR3) - Week 3
 
 **Goal**: Integrate PostgreSQL with the application using SQLAlchemy.
 
@@ -78,7 +85,7 @@ This repository is designed to guide participants through learning Python fundam
     - `datasets/Restaurant - Week 1 Satisfaction.csv`
 ---
 
-## Phase 4: Replacing SQLAlchemy with Raw SQL Queries (PR4)
+## Phase 4: Replacing SQLAlchemy with Raw SQL Queries (PR4) - Week 4
 
 **Goal**: Replace SQLAlchemy with raw SQL queries for database interaction.
 
@@ -91,7 +98,7 @@ This repository is designed to guide participants through learning Python fundam
 
 ---
 
-## Phase 5: Pandas (PR5)
+## Phase 5: Pandas (PR5) - Week 5
 
 **Goal**: Learn data manipulation using Pandas.
 
@@ -118,7 +125,7 @@ This repository is designed to guide participants through learning Python fundam
 
 ---
 
-## Phase 6: PySpark (PR6)
+## Phase 6: PySpark (PR6) - Week 6
 
 **Goal**: Understand parallel processing using PySpark.
 
@@ -133,7 +140,7 @@ This repository is designed to guide participants through learning Python fundam
 
 ---
 
-## Phase 7: Unit Testing with Pytest (PR7)
+## Phase 7: Unit Testing with Pytest (PR7) - Week 7
 
 **Goal**: Write unit tests using pytest.
 
@@ -146,7 +153,7 @@ This repository is designed to guide participants through learning Python fundam
 
 ---
 
-## Phase 8: Integration Testing with SQLite & PostgreSQL (PR8)
+## Phase 8: Integration Testing with SQLite & PostgreSQL (PR8) - Week 7
 
 **Goal**: Set up integration tests using SQLite and PostgreSQL.
 
@@ -159,7 +166,7 @@ This repository is designed to guide participants through learning Python fundam
 
 ---
 
-## Phase 9: Dockerizing the Application (PR9)
+## Phase 9: Dockerizing the Application (PR9) - Week 8
 
 **Goal**: Containerize the full application using Docker.
 
@@ -172,7 +179,7 @@ This repository is designed to guide participants through learning Python fundam
 
 ---
 
-## Phase 10: Final Project Submission (PR10)
+## Phase 10: Final Project Submission (PR10) - Week 8 & 9
 
 **Goal**: Submit the final project for review.
 
