@@ -47,6 +47,11 @@ This repository is designed to guide participants through learning Python fundam
 - Implement CRUD operations using [Pydantic models](https://pydantic-docs.helpmanual.io/).
   
 **Checkpoint**: Build a minimal API with core CRUD functionality.
+- endpoint to retrieve an item from a static list
+- endpoint to create an item in a list
+- endpoint to delete an item from a list
+- endpoint to update an item in a list
+- you can leverage the data from `app/datasets/students.json` for those operations
 
 ---
 
@@ -62,6 +67,11 @@ This repository is designed to guide participants through learning Python fundam
 - Implement CRUD operations.
 
 **Checkpoint**: Working API with PostgreSQL and SQLAlchemy integration.
+- the API endpoints should facilitate CRUD operations against tables which respect the same structure as the files:
+    - `datasets/Restaurant - Foods.csv`
+    - `datasets/Restaurant - Customers.csv`
+    - `datasets/Restaurant - Week 1 Sales.csv`
+    - `datasets/Restaurant - Week 1 Satisfaction.csv`
 
 ---
 
@@ -97,6 +107,9 @@ This repository is designed to guide participants through learning Python fundam
       - most popular foods based on a Job Category
       - correlation between most popular foods and satisfaction for week 1
       - correlation between most popular foods and sales for week 1 & week 2
+      create endpoints in the exposed API to:
+      - be able to upload each of the files mentioned above into the database after the cleaninng/preparation has been done
+      - support different load types: delta, truncate, etc
 
 **Checkpoint**: Submit scripts demonstrating Pandas-based data analysis.
 
