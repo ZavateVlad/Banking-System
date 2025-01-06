@@ -1,6 +1,9 @@
-#import area
+# import area
 
 from typing import List
+import re
+import pandas as pd
+import requests
 
 """
 - Please do not change the the name of the already defined functions from below.
@@ -22,7 +25,22 @@ def parse_dictionary(input_dict: dict) -> list:
     :return: list:
         - for the example dictionary from above the result should be: [47, 52, 44, 53, 54]
     """
-    pass
+    empty_list = []
+    try:
+        for key, value in input_dict.items():
+            x = value
+            if x not in empty_list:
+                empty_list.append(x)
+        return empty_list
+    except AttributeError:
+        return 'Error: The input is not a dictionary!'
+
+
+a = parse_dictionary(
+    {'a': 47, 'b': 52, 'c': 47, 'd': 44, 'e': 52, 'f': 53, 'g': 54, 'h': 44, 'i': 54, 'z': 47, 'y': 52, 'x': 47,
+     'w': 44, 'v': 52, 'u': 53, 't': 54, 's': 44, 'r': 54})
+# b = parse_dictionary(['52', '5253'])
+print(a)
 
 
 def identify_missing_students(all_students: list, students_who_completed: list) -> list:
@@ -32,7 +50,21 @@ def identify_missing_students(all_students: list, students_who_completed: list) 
     :param students_who_completed: - students who already completed the assessment
     :return: list - students who have not already completed the assessment
     """
-    pass
+    assessment_not_completed = []
+    duplicate_name_all_students = set(all_students)
+
+    for student in all_students:
+        duplicate_name_all_students.add(student)
+        if len(duplicate_name_all_students) != len(all_students):
+            return 'Error: There are students with the same name, please add last name!'
+        if student not in students_who_completed:
+            assessment_not_completed.append(student)
+
+    return assessment_not_completed
+
+
+c = identify_missing_students(['vlad', 'mircea', 'alex', 'mihai'], ['alex', 'mihai'])
+print(c)
 
 
 def identify_numbers_v1(possible_numbers: list) -> list:
@@ -44,7 +76,16 @@ def identify_numbers_v1(possible_numbers: list) -> list:
     :param possible_numbers: list - containing both numbers and strings
     :return: list - containing the numbers from the input list which matched the condition from above; if no entry matches the condition return an empty list
     """
-    pass
+    number_list = []
+    for element in possible_numbers:
+        if ((type(element) == int) or (type(element) == float)) and (element > 1.4):
+            number_list.append(element)
+
+    return number_list
+
+
+d = identify_numbers_v1(['vlad', 1.2, 2.4])
+print(d)
 
 
 def identify_substring(full_message: str, strings_to_find: list) -> dict():
@@ -54,7 +95,28 @@ def identify_substring(full_message: str, strings_to_find: list) -> dict():
     :param strings_to_find: list(str) - strings to be searched in the full message
     :return: dict("substring": "no_occurrences") - if none of the strings in the list will e found in the full message, return None
     """
-    pass
+    empty_dict = {}
+    comparative_list = []
+
+    try:
+        for string in strings_to_find:
+            number_of_occurrences = full_message.count(string)
+            empty_dict[string] = number_of_occurrences
+            if string not in full_message:
+                comparative_list.append(string)
+
+        if len(comparative_list) == len(strings_to_find):
+            return None
+
+    except TypeError:
+        return "The substring list contains other types than str"
+
+    else:
+        return empty_dict
+
+
+e = identify_substring('welcome to my python exercises', ['q', 'b'])
+print(e)
 
 
 def validate_password(input_pwd: str) -> bool:
@@ -67,7 +129,17 @@ def validate_password(input_pwd: str) -> bool:
         - should contain at least 1 uppercase/lowercase letter
     :return: bool - True/False depending on the validity of the input string
     """
-    pass
+
+    password = re.search("^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%?&]{10,15}$", input_pwd)
+    if password:
+        return True
+    print(
+        'Password must contain between 10 and 15 chars, one number, one special character and at least one uppercase/lowercase letter')
+    return False
+
+
+f = validate_password('Vlad123!zavate')
+print(f)
 
 
 def footbal_championship_winner(input_file: str) -> str:
@@ -87,7 +159,31 @@ def footbal_championship_winner(input_file: str) -> str:
     :param input_file: str - input file containing matches results
     :return str - name of the winning team
     """
-    pass
+
+    championship = pd.read_csv(input_file)
+    championship['home_score'] = championship['score'].apply(lambda x: x[0] if x[2] != '-' else x[:2])
+    championship['away_score'] = championship['score'].apply(lambda x: x[-1] if x[-3] != '-' else x[-2:])
+
+    championship['Points'] = 0
+    team_name = dict(zip(championship['home_team'], championship['Points']))
+
+    for index, row in championship.iterrows():
+        if row['home_score'] > row['away_score']:
+            team_name[row['home_team']] += 3
+        elif row['home_score'] == row['away_score']:
+            team_name[row['home_team']] += 1
+            team_name[row['away_team']] += 1
+        elif row['home_score'] < row['away_score']:
+            team_name[row['away_team']] += 3
+
+    winner = max(team_name, key=team_name.get)
+
+    return winner
+
+
+h = footbal_championship_winner(
+    'C:/Users/ZZ03NO826/PycharmProjects/Python-Upskill/python-core-de-training-refactored/app/datasets/football_championship_input.csv')
+print(h)
 
 
 def fetch_data_from_url(url: str):
@@ -100,6 +196,14 @@ def fetch_data_from_url(url: str):
     Returns:
     - tuple: (status_code, response_content)
     """
-    pass
+    try:
+        response = requests.get(url=url)
+        return (response.status_code, response.content)
+    except requests.RequestException:
+        return 'Error with the request'
+
+
+i = fetch_data_from_url('https://www.google.co.uk/')
+print(i)
 
 
